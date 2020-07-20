@@ -16,25 +16,23 @@ We have provided a sample Day Journey entry staring at 0. You can delete this ex
 
 ## Bruck1701's Cloud Journey
 
-[✍️ Introduce yourself]
+I started studying for the AWS Solutions Architect in 2019, since I was about to take a long leave of absence from my job. I managed to pass the exam! but in the middle of the turmoil of moving with my family to a new country, work, studies, pandemic ... I could not get to exercise my newly acquired skills. So I decided to review what I had learned starting the journey to a seconde certification. The AWS Developer Associate ! The 100DaysOfCloud Challenge is a nice motivations not to stop the process. One of the keys of learning these new technologies is the persistence of practicing, reading or watching a tutorial everyday ! Besides the community is super friendly and supportive!
 
-[✍️ Tell us why you started this challenge]
-
-[✍️ Tell us where you want to be at the end of the challenge]
+At the end of the challenge I want to pass the Developers Associate Exam and maybe start a new journey for another AWS certificate or even another platform!
 
 - [@BrunoKimaru](https://twitter.com/BrunoKimaru)
 - [Bruno Kümmel](https://www.linkedin.com/in/bruno-k%C3%BCmmel-1701/)
 
-## Stepping out the door
+## Stepping out the door - Studying/Reviewing Fundamentals and concepts
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [](Journey/005/Readme.md)
-- [ ] ☁️ 6 > [](Journey/006/Readme.md)
-- [ ] ☁️ 7 > [](Journey/007/Readme.md)
-- [ ] ☁️ 8 > [](Journey/008/Readme.md)
+- [✔️] ☁️ 1 > Setup Account and Gather material 
+- [✔️] ☁️ 2 > AWS IAM concepts + Hands on exercises
+- [✔️] ☁️ 3 > AWS EC2 Overview + Hands on exercises
+- [✔️] ☁️ 4 > Introduction to Security Groups
+- [✔️] ☁️ 5 > Security Groups
+- [✔️] ☁️ 6 > AWS EC2 User Data, Launch types, instance types
+- [✔️] ☁️ 7 > AWS Fundamentals ELB 
+- [✔️] ☁️ 8 > Auto Scaling Groups (ASG) Overview and Hands on Exercises.
 - [ ] ☁️ 9 > [](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
