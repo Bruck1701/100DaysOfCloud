@@ -13,9 +13,13 @@
 
 ## Bruck1701's Cloud Journey
 
-I started studying for the AWS Solutions Architect in 2019, since I was about to take a long leave of absence from my job. I managed to pass the exam! but in the middle of the turmoil of moving with my family to a new country, work, studies, pandemic ... I could not get to exercise my newly acquired skills. So I decided to review what I had learned starting the journey to a seconde certification. The AWS Developer Associate ! The 100DaysOfCloud Challenge is a nice motivations not to stop the process. One of the keys of learning these new technologies is the persistence of practicing, reading or watching a tutorial everyday ! Besides the community is super friendly and supportive!
+I started studying for the AWS Solutions Architect in 2019. I was about to take a long leave of absence from my job and I thought it would be a good opportunity to learn a new tech. I managed to pass the exam, but in the middle of the turmoil of moving with my family to a new country, volunteer work, studies, pandemic ... I could not get to exercise my newly acquired skills. So It is time to review what I had learned starting the journey to a second certification: The AWS Developer Associate!
 
-At the end of the challenge I want to pass the Developers Associate Exam and maybe start a new journey for another AWS certificate or even another platform!
+The 100DaysOfCloud Challenge is a nice motivation not to stop the process. I believe that one of the keys of learning anything is the persistence of practicing, reading or watching a tutorial everyday(or as frequent as possible, in any case). Besides the community is super friendly and supportive!
+
+At the end of the challenge I want not only to pass the Developers Associate Exam, but really master the tools and techniques and maybe, if the time allows it start a new journey for another AWS certificate or even start my first steps with another cloud provider!
+
+Cheers! 
 
 - [@BrunoKimaru](https://twitter.com/BrunoKimaru)
 - [Bruno Kümmel](https://www.linkedin.com/in/bruno-k%C3%BCmmel-1701/)
