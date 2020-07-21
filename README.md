@@ -34,7 +34,7 @@ Cheers!
 - [✔️] ☁️ 6 > AWS EC2 User Data, Launch types, instance types
 - [✔️] ☁️ 7 > AWS Fundamentals ELB 
 - [✔️] ☁️ 8 > Auto Scaling Groups (ASG) Overview and Hands on Exercises.
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [✔️ ] ☁️ 9 > EC2 Storage: EBS vs Instance Store vs EFS - Use cases and Hands on.
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
