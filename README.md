@@ -35,7 +35,7 @@ Cheers!
 - [✔️] ☁️ 7 > AWS Fundamentals ELB 
 - [✔️] ☁️ 8 > Auto Scaling Groups (ASG) Overview and Hands on Exercises.
 - [✔️ ] ☁️ 9 > EC2 Storage: EBS vs Instance Store vs EFS - Use cases and Hands on.
-- [ ] ☁️ 10 > [](Journey/010/Readme.md)
+- [✔️ ] ☁️ 10 > [A little bit more on Auto Scaling Groups](Journey/010/Readme.md)
 
 ## Walking down the road
 
