@@ -20,7 +20,7 @@ and preferably you would have your security groups and Application Load Balancer
 
 ## Use Case
  
- Imagine a situation where your web app has been posted on social media and overnight it has become the new sensation. Every day your app is bombarded with a surge of users, but naturally this demand is not constant, because people still need to sleep. How would you provision your servers for good response time when it is being demanded by thousands of users? You can always pay for more computers on the cloud, but some times, in the middle of the night, they will be idle just seating there and you are being charged anyway to keep them idle. The solution would be to dynamically change the number of instances needed to provide the service, right? increasing or decreasing the number of available computers depending on the number of users. That is what Auto Scaling is all about! 
+ Imagine a situation where your web app has been posted on social media and overnight it has become the new sensation. Every day your app is bombarded with a surge of users, but naturally this demand is not constant, because people still need to sleep. How would you provision your servers for good response time when it is being demanded by thousands of users? You can always pay for more computers on the cloud, but some times, in the middle of the night, they will be idle just seating there and you are being charged anyway to keep them idle. The solution would be to dynamically change the number of instances needed to provide the service, right? Increasing or decreasing the number of available computers depending on the number of users. That is what Auto Scaling is all about! 
  
 
 ### Step 1 — First things first 
@@ -33,9 +33,9 @@ Getting into the Create Auto Scaling group page.
 ![createAutoScalingGroup](https://user-images.githubusercontent.com/17711277/88183181-6cdb5a00-cc31-11ea-81fe-8dc340b062e5.jpg)
 
 
-Then after you click to create the ASG, you can choose between launch template or a launch configuration. Launch template is the newer version of the service and allows you to launch a spot fleet of instances (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html). Lauch configuration, on the other hand, allows you to specify only one instance type. 
+Then after you click to create the ASG, you can choose between launch template or a launch configuration. Launch template is the newer version of the service and allows you to launch a spot fleet of instances (https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/spot-fleet.html). Launch configuration, on the other hand, allows you to specify only one instance type. 
 So let's create it an ASG with launch template, since it is the newer version and it is the default choice.
-First name your ASG and click on to create a launch template (assuming you don't have one already of course)
+First name your ASG and click on to create a launch template (assuming you don't have one already of course).
 
 ![createLaunchTemplate](https://user-images.githubusercontent.com/17711277/88184386-ea539a00-cc32-11ea-91ca-befa5eb188f0.jpg)
 
@@ -43,7 +43,7 @@ First name your ASG and click on to create a launch template (assuming you don't
 
 ### Step 2 - Create a Launch Template
 
-The launch template is used as a set of rules on how ASG will create the new resources, in our case, the new EC2 instances.
+The launch template is used as a set of rules on how ASG will create the new resources - in our case, the new EC2 instances.
 
 First you name your template, add some description, and for this tutorial I unchecked the Provide guidance checkbox.
 
@@ -56,12 +56,12 @@ For the Key pair to login, you select your key pair, or you can create a new key
 
 ![chooseAMI](https://user-images.githubusercontent.com/17711277/88200869-06613680-cc47-11ea-8289-e743f8d2276d.jpg)
 
-For network settings, be sure to choose VPC and the to select the the Security Groups that your EC2 that allow you to connect to the EC2 ( normally by SSH ) and one that allows your Load Balancer to send traffic to your instance. For this mini guide, I'm running a simple web server on port 80. So I keep one Security Group for the SSH port (MySG) and one for the Load Balancer (HTTP SG).
+For network settings, be sure to choose VPC and then to select the the Security Groups that your EC2 that allow you to connect to the EC2 (normally by SSH) and one that allows your Load Balancer to send traffic to your instance. For this mini guide, I'm running a simple web server on port 80. So I keep one Security Group for the SSH port (MySG) and one for the Load Balancer (HTTP SG).
 
 
 ![networkSettings](https://user-images.githubusercontent.com/17711277/88201321-9901d580-cc47-11ea-80a1-593ebd8b7331.jpg)
 
-There are a lot of other optional settings to configure in order to fine tune your ASG. However besides these that we already set up, you will mostly need to set up the user data in Advanced details to install and configure your app in the new instance. In this example I just added some information to index.html in order to check if the instance is coming up correctly.
+There are a lot of other optional settings to configure in order to fine tune your ASG. However, besides these that we already set up, you will mostly need to set up the user data in Advanced details to install and configure your app in the new instance. In this example I just added some information to index.html in order to check if the instance is coming up correctly.
 
 
 ![userData](https://user-images.githubusercontent.com/17711277/88201824-3f4ddb00-cc48-11ea-8926-4f01fe9a2248.jpg)
@@ -79,7 +79,7 @@ Go back to the Create launch group page, refresh the launch template button and 
 ![launchTemplateReady](https://user-images.githubusercontent.com/17711277/88202088-a53a6280-cc48-11ea-97df-11801c82efee.jpg)
 
 
-### Step 3 - Configure settings:
+### Step 3 - Configure settings
 
 Purchase options: You can either choose "On-Demand or Spot instance" or a combination of both. From an architectural point of view, it will depend on the application being served, but the idea is that you can tune your auto scaling for the best cost over availability. For simplicity's sake of this guide, I chose "Adhere to launch template". 
 For the networking setting you can choose in which subnets (AZs) you would like your ASG to deploy your EC2 Instances into. 
@@ -97,8 +97,8 @@ So, you choose your Load balancer and in which Target Group should your new inst
 
 ## Health Checks
 
-The EC2 Checkbox means that if the EC2 instance fails (operating system crash for example), ASG will replace it. 
-The ELB health check means that if the Load Balancer check from within the target group fails (the app stops responding), The Auto Scaling group will terminate that instance and create a new one automatically!
+The EC2 Checkbox means that if the EC2 instance fails (operating system crash, for example), ASG will replace it. 
+The ELB health check means that if the Load Balancer check from within the target group fails (the app stops responding), the Auto Scaling group will terminate that instance and create a new one automatically!
 For this guide, I'll skip the additional settings.
 
 
@@ -111,7 +111,7 @@ Here you decide how many instances you want running at a any given time and the 
 
 
 ### Step 6 - Understanding scaling policies
-In scaling policies is where you configure the rules that will make your ASG scale out(increase the number of instances) and scale in (terminate idle instances).
+In scaling policies is where you configure the rules that will make your ASG scale out (increase the number of instances) and scale in (terminate idle instances).
 There are basically three types of scaling:
 * Target Tracking Scaling
     * Most simple to set-up. I.e : The average CPU of all instances managed by ASG must be less than 40%
@@ -124,7 +124,7 @@ Another important concept in Auto Scaling is cooldown. The Cooldown period ensur
 When you create your scaling Policy from the ASG create page, you can only set the Target Tracking Scaling. If you want to set up Simple/Step Scaling or Scheduled Actions. You can choose none here and add the policy later once the ASG has been created. For this example, I set up target tracking for CPU usage.
 ![scalingPolicy](https://user-images.githubusercontent.com/17711277/88209452-09622400-cc53-11ea-8110-04e0f4d75575.jpg)
 
-Once your scaling policy is set, you are practically good to go! You can also configure your ASG to send notifications to SNS topics whenever a scale operation is executed, but I won't go into these here ( maybe on another tutorial). And as with a lot of other services, you can add tags to your ASG.
+Once your scaling policy is set, you are practically good to go! You can also configure your ASG to send notifications to SNS topics whenever a scale operation is executed, but I won't go into these here (maybe on another tutorial). And as with a lot of other services, you can add tags to your ASG.
 After you launch your ASG, if you don't have any EC2 instances running into the target group of the load balancer connected to the the ASG, the ASG will initialize the minimum number of instances that you previously defined. You can check this on the activity history of your ASG
 
 ![activityHistory](https://user-images.githubusercontent.com/17711277/88211312-d5d4c900-cc55-11ea-8350-755903b72376.jpg)
@@ -143,7 +143,10 @@ We can check how many processors we have with
 cat /proc/cpuinfo
 ```
 
-![cpuInfo](https://user-images.githubusercontent.com/17711277/88212006-d7eb5780-cc56-11ea-940c-1a4a954f01b1.jpg)
+
+![cpuInfo](https://user-images.githubusercontent.com/17711277/88218775-ceff8380-cc60-11ea-8481-8b54eaf732d2.jpg)
+
+
 So we have 1 processor available on our instances and it happens to be a  Intel Xeon Platinum 8175M @ 2.50GHz. When you google this model you get that it has 2 logical cores per processor. In this case, if we want to get our instance spike its CPU, we need to get both of them busy. The simplest way is to run two instances of:
 
 ```
@@ -155,8 +158,10 @@ $  yes > /dev/null &
 
 When you run the "top" command you can see the CPU usage going upwards. 
 
-![yes](https://user-images.githubusercontent.com/17711277/88212049-e6d20a00-cc56-11ea-95f5-185dfd146473.jpg)
+![yes](https://user-images.githubusercontent.com/17711277/88218777-cf981a00-cc60-11ea-9405-455cb362b483.jpg)
+
 You can also check on CloudWatch metrics on the instance monitoring tab:
+
 ![cloudWatch](https://user-images.githubusercontent.com/17711277/88212099-fa7d7080-cc56-11ea-9af5-165688a8d3fb.jpg)
 
 After a few moments, you can check in the activity history tab on your Auto Scaling Group that two additional instances were created to help with the high demand detected by the target tracking.
@@ -164,17 +169,18 @@ After a few moments, you can check in the activity history tab on your Auto Scal
 ![trackHistory](https://user-images.githubusercontent.com/17711277/88212120-049f6f00-cc57-11ea-835d-13ee24591b0a.jpg)
 
 
-The resulting three instances created to keep the average CPU usage under the threshold of 40%
+These are the resulting three instances created to keep the average CPU usage under the threshold of 40%.
+
 ![threeinstances](https://user-images.githubusercontent.com/17711277/88212145-0f5a0400-cc57-11ea-85d0-0879749fe8a0.jpg)
 
 
-Great! Is is working as expected! Don't forget to kill your running instances of "yes" !
+Great! It is working as expected! Don't forget to kill your running instances of "yes".
 
 ![killYes](https://user-images.githubusercontent.com/17711277/88214539-a4123100-cc5a-11ea-8cf7-cd4c2e408056.jpg)
 
 ## ☁️ Cloud Outcome
 
-If everything worked out, you should have an ASG connected to an Application Load Balancer with a working scaling policy! 
+If everything worked out, you should have an ASG connected to an Application Load Balancer with a working scaling policy. Yay! 
 
 ## Next Steps
 
