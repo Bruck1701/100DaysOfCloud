@@ -1,52 +1,65 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+## Amazon Aurora
 
-# New post title here
+• Aurora is AWS proprietary technology
+• Postgres and MySQL are both supported as Aurora DB (that means your drivers will work as if Aurora was a Postgres or MySQL database)
+• Aurora is “AWS cloud optimized” and claims 5x performance improvement over MySQL on RDS, over 3x the performance of Postgres on RDS ( but at a higher cost (20% more) NO Free tier for Aurora)
+• Aurora storage automatically grows in increments of 10GB, up to 64 TB.
+• Aurora can have 15 replicas while MySQL has 5, and the replication process is faster (sub 10 ms replica lag)
+• Failover in Aurora is instantaneous. Key word: High Availability
 
-## Introduction
+Features of Aurora
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+• Automatic fail-over
+• Backup and Recovery
+• Isolation and security
+• Industry compliance
+• Push-button scaling
+• Automated Patching with Zero Downtime
+• Advanced Monitoring
+• Routine Maintenance
+• Backtrack: restore data at any point of time without using backups
+• Encryption at rest using KMS
+• Automated backups, snapshots and replicas are also encrypted
+• Encryption in flight using SSL (same process as MySQL or Postgres)
+• Possibility to authenticate using IAM token (same method as RDS)
 
-## Prerequisite
+## Share reponsability security model:
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+• You are responsible for protecting the instance with security groups
+• You can’t SSH ( OS and DB maintenance is on AWS)
 
-## Use Case
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+## High Availability on Aurora 
+6 copies of the data across 3 AZ:
+    • 4 copies out of 6 needed for writes
+    • 3 copies out of 6 needed for reads
+    
+• Self healing with peer-to-peer replication
+• Storage is striped across hundreds of volumes
+• One Aurora Instance takes writes (master)
 
-## Cloud Research
+• Automated failover for master in less than 30 seconds
+• Master + up to 15 Aurora Read Replicas serve reads
+• Support for Cross Region Replication
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+-> Important : Different entrypoints for read and write!
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+## Aurora Serverless 
+Automated database Client instantiation and autoscaling based on actual usage
+• Good for infrequent, intermittent or unpredictable workloads
+• No capacity planning needed
+• Pay per second, can be more cost-effective
 
-### Step 1 — Summary of Step
+## Seting up Aurora cross Region for Availability and Disaster Recovery
+Aurora Cross Region Read Replicas:
+• Useful for disaster recovery
+• Simple to put in place
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Aurora Global Database (recommended):
+• 1 Primary Region (read / write)
+• Up to 5 secondary (read-only) regions, replication lag is less than 1 second
+• Up to 16 Read Replicas per secondary region
+• Helps for decreasing latency
+• Promoting another region (for disaster recovery) has an RTO of < 1 minute
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
