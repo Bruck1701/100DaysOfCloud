@@ -45,7 +45,7 @@ Cheers!
 - [✔️] ☁️ 14 > [VPC Concepts](Journey/014/Readme.md)
 - [✔️ ] ☁️ 15 > ECS, ECR & Fargate - Docker in AWS (Still writing a mini-tutorial on this topic - no link today 😅 )
 - [✔️] ☁️ 16 > Flask + Fargate Hands on
-- [ ] ☁️ 17 > [](Journey/017/Readme.md)
+- [✔️] ☁️ 17 > CloudFront Overview 
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
