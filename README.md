@@ -26,27 +26,27 @@ Cheers!
 
 ## Stepping out the door - Studying/Reviewing Fundamentals and concepts
 
-- [✔️] ☁️ 1 > Setup Account and Gather material 
-- [✔️] ☁️ 2 > AWS IAM concepts + Hands on exercises
-- [✔️] ☁️ 3 > AWS EC2 Overview + Hands on exercises
-- [✔️] ☁️ 4 > Introduction to Security Groups
-- [✔️] ☁️ 5 > Security Groups
-- [✔️] ☁️ 6 > AWS EC2 User Data, Launch types, instance types
-- [✔️] ☁️ 7 > AWS Fundamentals ELB 
-- [✔️] ☁️ 8 > Auto Scaling Groups (ASG) Overview and Hands on Exercises.
-- [✔️] ☁️ 9 > EC2 Storage: EBS vs Instance Store vs EFS - Use cases and Hands on.
-- [✔️] ☁️ 10 > [A little bit more on Auto Scaling Groups](Journey/010/Readme.md)
+- [x] ☁️ 1 > Setup Account and Gather material 
+- [x] ☁️ 2 > AWS IAM concepts + Hands on exercises
+- [x] ☁️ 3 > AWS EC2 Overview + Hands on exercises
+- [x] ☁️ 4 > Introduction to Security Groups
+- [x] ☁️ 5 > Security Groups
+- [x] ☁️ 6 > AWS EC2 User Data, Launch types, instance types
+- [x] ☁️ 7 > AWS Fundamentals ELB 
+- [x] ☁️ 8 > Auto Scaling Groups (ASG) Overview and Hands on Exercises.
+- [x] ☁️ 9 > EC2 Storage: EBS vs Instance Store vs EFS - Use cases and Hands on.
+- [x] ☁️ 10 > [A little bit more on Auto Scaling Groups](Journey/010/Readme.md)
 
 ## Walking down the road
 
-- [✔️] ☁️ 11 > [EFS and EBS Hands on.](Journey/011/Readme.md)
-- [✔️] ☁️ 12 > [Best Practices for Amazon RDS](Journey/012/Readme.md)
-- [✔️] ☁️ 13 > [Aurora and ElastiCache overview](Journey/013/Readme.md)
-- [✔️] ☁️ 14 > [VPC Concepts](Journey/014/Readme.md)
-- [✔️ ] ☁️ 15 > ECS, ECR & Fargate - Docker in AWS (Still writing a mini-tutorial on this topic - no link today 😅 )
-- [✔️] ☁️ 16 > Flask + Fargate Hands on
-- [✔️] ☁️ 17 > CloudFront Overview 
-- [ ] ☁️ 18 > [](Journey/018/Readme.md)
+- [x] ☁️ 11 > [EFS and EBS Hands on.](Journey/011/Readme.md)
+- [x] ☁️ 12 > [Best Practices for Amazon RDS](Journey/012/Readme.md)
+- [x] ☁️ 13 > [Aurora and ElastiCache overview](Journey/013/Readme.md)
+- [x] ☁️ 14 > [VPC Concepts](Journey/014/Readme.md)
+- [x] ☁️ 15 > ECS, ECR & Fargate - Docker in AWS (Still writing a mini-tutorial on this topic - no link today 😅 )
+- [x] ☁️ 16 > Flask + Fargate Hands on
+- [x] ☁️ 17 > CloudFront Overview 
+- [x] ☁️ 18 > Quizes on ECS and Cloud front + Elastic Beanstalk overview
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
