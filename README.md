@@ -47,7 +47,7 @@ Cheers!
 - [x] ☁️ 16 > Flask + Fargate Hands on
 - [x] ☁️ 17 > CloudFront Overview 
 - [x] ☁️ 18 > Quizes on ECS and Cloud front + Elastic Beanstalk overview
-- [ ] ☁️ 19 > [](Journey/019/Readme.md)
+- [x] ☁️ 19 > Beanstalk - Deployment Modes 
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
 
 ## Crossing the bridge
