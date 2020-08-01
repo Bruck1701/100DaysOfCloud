@@ -43,12 +43,12 @@ Cheers!
 - [x] ☁️ 12 > [Best Practices for Amazon RDS](Journey/012/Readme.md)
 - [x] ☁️ 13 > [Aurora and ElastiCache overview](Journey/013/Readme.md)
 - [x] ☁️ 14 > [VPC Concepts](Journey/014/Readme.md)
-- [x] ☁️ 15 > ECS, ECR & Fargate - Docker in AWS (Still writing a mini-tutorial on this topic - no link today 😅 )
+- [x] ☁️ 15 > ECS, ECR & Fargate - Docker in AWS 
 - [x] ☁️ 16 > Flask + Fargate Hands on
 - [x] ☁️ 17 > CloudFront Overview 
 - [x] ☁️ 18 > Quizes on ECS and Cloud front + Elastic Beanstalk overview
 - [x] ☁️ 19 > Beanstalk - Deployment Modes 
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [x] ☁️ 20 > Beanstalk Hands on and Beanstal with Docker (still writing the Fargate tutorial)
 
 ## Crossing the bridge
 
