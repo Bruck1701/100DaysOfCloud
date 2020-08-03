@@ -48,11 +48,11 @@ Cheers!
 - [x] ☁️ 17 > CloudFront Overview 
 - [x] ☁️ 18 > Quizes on ECS and Cloud front + Elastic Beanstalk overview
 - [x] ☁️ 19 > Beanstalk - Deployment Modes 
-- [x] ☁️ 20 > Beanstalk Hands on and Beanstal with Docker (still writing the Fargate tutorial)
+- [x] ☁️ 20 > Beanstalk Hands on and Beanstal with Docker 
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
+- [x] ☁️ 21 >  Introduction do CICD in AWS
 - [ ] ☁️ 22 > [](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
