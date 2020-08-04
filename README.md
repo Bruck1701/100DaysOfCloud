@@ -53,7 +53,7 @@ Cheers!
 ## Crossing the bridge
 
 - [x] ☁️ 21 >  Introduction do CICD in AWS
-- [ ] ☁️ 22 > [](Journey/022/Readme.md)
+- [x] ☁️ 22 >  Route 53 Review
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
