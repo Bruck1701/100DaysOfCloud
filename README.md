@@ -54,7 +54,7 @@ Cheers!
 
 - [x] ☁️ 21 >  Introduction do CICD in AWS
 - [x] ☁️ 22 >  Route 53 Review
-- [ ] ☁️ 23 > [](Journey/023/Readme.md)
+- [x] ☁️ 23 >  Lambda functions and API Gateway
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
