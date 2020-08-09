@@ -46,7 +46,7 @@ Cheers!
 - [x] ☁️ 15 > ECS, ECR & Fargate - Docker in AWS 
 - [x] ☁️ 16 > Flask + Fargate Hands on
 - [x] ☁️ 17 > CloudFront Overview 
-- [x] ☁️ 18 > Quizes on ECS and Cloud front + Elastic Beanstalk overview
+- [x] ☁️ 18 > Quizes on ECS and CloudFront + Elastic Beanstalk overview
 - [x] ☁️ 19 > Beanstalk - Deployment Modes 
 - [x] ☁️ 20 > Beanstalk Hands on and Beanstal with Docker 
 
@@ -55,7 +55,7 @@ Cheers!
 - [x] ☁️ 21 >  Introduction do CICD in AWS
 - [x] ☁️ 22 >  Route 53 Review
 - [x] ☁️ 23 >  Lambda functions and API Gateway
-- [ ] ☁️ 24 > [](Journey/024/Readme.md)
+- [x] ☁️ 24 >  AWS CICD: CodeCommit, CodePipeline and CodeDeploy 
 - [ ] ☁️ 25 > [](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
