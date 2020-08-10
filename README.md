@@ -56,7 +56,7 @@ Cheers!
 - [x] ☁️ 22 >  Route 53 Review
 - [x] ☁️ 23 >  Lambda functions and API Gateway
 - [x] ☁️ 24 >  AWS CICD: CodeCommit, CodePipeline and CodeDeploy 
-- [x] ☁️ 25 >  AWS CLI, SDK, IAM Roles & Policies
+- [x] ☁️ 25 >  [AWS CLI, SDK, IAM Roles & Policies](https://github.com/Bruck1701/aws-cli-cheatsheet)
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
