@@ -56,7 +56,7 @@ Cheers!
 - [x] ☁️ 22 >  Route 53 Review
 - [x] ☁️ 23 >  Lambda functions and API Gateway
 - [x] ☁️ 24 >  AWS CICD: CodeCommit, CodePipeline and CodeDeploy 
-- [ ] ☁️ 25 > [](Journey/025/Readme.md)
+- [x] ☁️ 25 >  AWS CLI, SDK, IAM Roles & Policies
 - [ ] ☁️ 26 > [](Journey/026/Readme.md)
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
