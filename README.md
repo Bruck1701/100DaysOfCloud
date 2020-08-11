@@ -57,7 +57,7 @@ Cheers!
 - [x] ☁️ 23 >  Lambda functions and API Gateway
 - [x] ☁️ 24 >  AWS CICD: CodeCommit, CodePipeline and CodeDeploy 
 - [x] ☁️ 25 >  [AWS CLI, SDK, IAM Roles & Policies](https://github.com/Bruck1701/aws-cli-cheatsheet)
-- [ ] ☁️ 26 > [](Journey/026/Readme.md)
+- [x] ☁️ 26 >  S3 - review concepts and hands on exercises
 - [ ] ☁️ 27 > [](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
