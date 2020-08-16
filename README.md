@@ -60,7 +60,7 @@ Cheers!
 - [x] ☁️ 26 >  S3 - review concepts and hands on exercises
 - [x] ☁️ 27 >  CodeDeploy and CodeStar - Hands-on exercises
 - [x] ☁️ 28 >  CDK Patterns - Deploy a React based website on S3 
-- [ ] ☁️ 29 > [](Journey/029/Readme.md)
+- [x] ☁️ 29 >  Advanced S3 - Replication, Storage Tier, Lifecyle policies.
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
