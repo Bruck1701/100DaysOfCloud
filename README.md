@@ -61,7 +61,7 @@ Cheers!
 - [x] ☁️ 27 >  CodeDeploy and CodeStar - Hands-on exercises
 - [x] ☁️ 28 >  CDK Patterns - Deploy a React based website on S3 
 - [x] ☁️ 29 >  Advanced S3 - Replication, Storage Tier, Lifecyle policies.
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [x] ☁️ 30 >  Exercise: migrate a Flask API app to AWS: API Gateway + Lambda + DynamoDB :) 
 
 ## Into the bushy, thorny forest
 
