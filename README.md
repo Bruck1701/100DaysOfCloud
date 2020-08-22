@@ -66,7 +66,7 @@ Cheers!
 ## Into the bushy, thorny forest
 
 - [x] ☁️ 31 > Played the Cloud Guru's Cloud Adventure: Race to Cloud Castle ! 
-- [ ] ☁️ 32 > [](Journey/032/Readme.md)
+- [x] ☁️ 32 > Overview of CloudFormation
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
