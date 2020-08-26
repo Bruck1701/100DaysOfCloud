@@ -68,7 +68,7 @@ Cheers!
 - [x] ☁️ 31 > Played the Cloud Guru's Cloud Adventure: Race to Cloud Castle ! 
 - [x] ☁️ 32 > Overview of CloudFormation
 - [x] ☁️ 33 > CloudFormation hands on exercises and review on AWS Lambda characteristics
-- [ ] ☁️ 34 > [](Journey/034/Readme.md)
+- [x] ☁️ 34 > AWS Serverless Lambda lambda lambda
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)
