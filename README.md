@@ -70,7 +70,7 @@ Cheers!
 - [x] ☁️ 33 > CloudFormation hands on exercises and review on AWS Lambda characteristics
 - [x] ☁️ 34 > AWS Serverless Lambda lambda lambda
 - [x] ☁️ 35 > DynamoDB - overview. Final touches on walkthrough to set up a serverless API 
-- [ ] ☁️ 36 > [](Journey/036/Readme.md)
+- [x] ☁️ 36 > DynamoDB - The novel. A lot of info on DDB and I'm not even halfway through.
 - [ ] ☁️ 37 > [](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [](Journey/038/Readme.md)
 - [ ] ☁️ 39 > [](Journey/039/Readme.md)
