@@ -74,7 +74,7 @@ Cheers!
 - [x] ☁️ 37 > DynamoDB exercises and hands on.
 - [x] ☁️ 38 > CloudWatch, Cloudtrail
 - [x] ☁️ 39 > AWS X-Ray
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [x] ☁️ 40 > AWS SQS, SNS and Kinesis
 
 ## Trekking the dunes
 
